@@ -1,0 +1,106 @@
+.integer-field {
+  border: 1.5px solid rgb(47, 53, 131) !important;
+  margin: 5% !important;
+}
+
+.boolean-container-cell {
+  border: 1.5px solid rgb(47, 53, 131) !important;
+}
+
+.select-all-left-col {
+  border-left: 1.5px solid rgb(47, 53, 131);
+  border-right: 1.5px solid rgb(47, 53, 131);
+  border-bottom: 1.5px solid rgb(47, 53, 131);
+  padding: 0.8%;
+  color: rgb(47, 53, 131);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.firstRowFirstCol {
+  background: rgb(223, 220, 220);
+}
+
+.firstRowThirdCol {
+  border-left: 1.5px solid rgb(47, 53, 131);
+  border-bottom: 1.5px solid rgb(47, 53, 131);
+  border-top: 1.5px solid rgb(47, 53, 131);
+}
+
+.firstRow14Col {
+  border-right: 1.5px solid rgb(47, 53, 131);
+  border-bottom: 1.5px solid rgb(47, 53, 131);
+  border-top: 1.5px solid rgb(47, 53, 131);
+}
+
+.secondRowThirdCol {
+  border-left: 1.5px solid rgb(47, 53, 131);
+  border-right: 1.5px solid rgb(47, 53, 131);
+  color: rgb(166, 30, 49);
+  padding: 0.5%;
+}
+.thirdRowThirdCol {
+  border-left: 1.5px solid rgb(47, 53, 131);
+  border-right: 1.5px solid rgb(47, 53, 131);
+  color: rgb(166, 30, 49);
+  padding: 0.5%;
+}
+
+.fourthMOreRowThirdCol {
+  border-left: 1.5px solid rgb(47, 53, 131);
+  border-right: 1.5px solid rgb(47, 53, 131);
+}
+
+.row10col8To10 {
+  padding: 0 0.25%;
+  border-right: 1.5px solid rgb(47, 53, 131);
+}
+
+.row11col11To14 {
+  padding: 0 0.25%;
+  border-right: 1.5px solid rgb(47, 53, 131);
+}
+
+.tenthMOreRowThirdCol {
+  border-bottom: 1.5px solid rgb(47, 53, 131);
+  border-right: 1.5px solid rgb(47, 53, 131);
+}
+
+.tenthRowThirdCol {
+  border-bottom: 1.5px solid rgb(47, 53, 131);
+  border-right: 1.5px solid rgb(47, 53, 131);
+  border-left: 1.5px solid rgb(47, 53, 131);
+}
+
+.firstRowRestCols {
+  border-top: 1.5px solid rgb(47, 53, 131);
+  border-bottom: 1.5px solid rgb(47, 53, 131);
+  color: rgb(166, 30, 49);
+}
+
+.secondRowRestCols {
+  border-right: 1.5px solid rgb(47, 53, 131);
+  padding: 0.5%;
+  color: rgb(166, 30, 49);
+}
+
+.thirdRowRestCols {
+  border-right: 1.5px solid rgb(47, 53, 131);
+  padding: 0.5%;
+  color: rgb(166, 30, 49);
+}
+
+.thirdRowFirstCol {
+  border-bottom: 1.5px solid rgb(47, 53, 131) !important;
+  background: rgb(223, 220, 220);
+  color: rgb(166, 30, 49) !important;
+}
+
+.thirdAndBiggerRowRestCols {
+  border-right: 1.5px solid rgb(47, 53, 131);
+}
+
+.select-all-middle-col {
+  background: rgb(223, 220, 220);
+}

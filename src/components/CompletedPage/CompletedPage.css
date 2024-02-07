@@ -1,0 +1,8 @@
+.animatedComponent {
+  opacity: 0;
+  transition: opacity 500ms ease-in-out;
+}
+
+.animatedComponent.entering {
+  opacity: 1;
+}

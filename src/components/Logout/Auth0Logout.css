@@ -1,0 +1,15 @@
+.logout-icon {
+  cursor: pointer;
+  font-size: 1.5em;
+}
+
+.logout-btn {
+  background-color: rgb(166, 30, 49);
+  padding: 12px 32px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

@@ -1,0 +1,15 @@
+.finch-container {
+  margin-top: 5%;
+}
+
+.finch-container h2 {
+  margin-bottom: 2%;
+}
+
+.finch-iframe {
+  border-radius: 5px;
+  border: 1px solid white;
+  border-radius: 5px;
+  width: 500px;
+  min-height: 700px;
+}

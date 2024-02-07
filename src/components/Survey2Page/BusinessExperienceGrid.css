@@ -1,0 +1,8 @@
+.shutdowns-label,
+.other-label {
+  font-size: 12px;
+  font-weight: 600;
+  width: 80%;
+  color: rgb(47, 53, 131) !important;
+}
+

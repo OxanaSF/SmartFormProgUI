@@ -1,0 +1,14 @@
+.docusign-container {
+    margin-top: 5%;
+  }
+  
+  .docusign-container h2 {
+    margin-bottom: 2%;
+  }
+  
+  .docusign-iframe {
+    border: none;
+    border-radius: 5px;
+    width: 90%;
+    height: 600px;
+  }

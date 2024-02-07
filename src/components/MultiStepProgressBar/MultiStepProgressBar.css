@@ -1,0 +1,209 @@
+.main-progress-bar {
+  text-align: left;
+  color: rgb(166, 30, 49);
+  font-size: 14px;
+}
+
+.dashboardSec {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 3%;
+}
+
+.main-progress-bar h1 {
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
+  font-size: 20px;
+}
+
+.nav-progress-bar {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 3%;
+}
+
+.progress-bar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  border-radius: 6px;
+  width: 100%;
+  min-height: 60px;
+  margin-right: 10%;
+}
+
+.progress-bar-calculated {
+  min-width: 20%;
+  padding: 10px 5px 10px 40px;
+  background: white;
+  border-radius: 6px;
+  min-height: 50px;
+  color: rgb(166, 30, 49);
+  font-weight: bold;
+  font-size: 12px;
+  margin: auto;
+}
+
+.erc-info {
+  display: flex;
+  align-items: center;
+}
+
+.erc-info img {
+  height: 40px;
+  margin-right: 10px;
+}
+
+.indexedStep {
+  color: rgb(190, 190, 190);
+  width: 50px;
+  height: 50px;
+  font-size: 12px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(206, 206, 206);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.imageContainer {
+  padding: 8px;
+  background-color: rgb(223, 220, 220);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.indexedStep.current {
+  border: 2.5px solid rgb(47, 53, 131);
+}
+
+.indexedStep.accomplished {
+  border-color: rgb(166, 30, 49);
+  border-width: 2.5px;
+}
+
+.RSPBprogressBar {
+  height: 2px;
+  width: 88%;
+  line-height: 1;
+  border-radius: 10px;
+  position: relative;
+  background-color: rgb(207, 207, 207);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 0;
+  margin: 20px auto;
+}
+
+.RSPBprogressBar .RSPBstep {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 0;
+  position: absolute;
+  transform: translateX(-50%);
+  transition-property: all;
+  transition-timing-function: ease;
+}
+
+.next-step-header {
+  margin-top: 2%;
+  margin-left: 3%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.next-step-header h2 {
+  font-size: 15px;
+}
+
+.dynamic-step {
+  background: white;
+  border-radius: 5px;
+  margin-left: 10px;
+  padding: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  color: rgb(47, 53, 131);
+}
+
+@media (max-width: 800px) {
+  .progress-bar-container {
+    margin-bottom: 6%;
+  }
+  .nav-progress-bar {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    margin-bottom: 10%;
+  }
+  .progress-bar-calculated {
+    width: 30%;
+    height: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 600px) {
+  .main-progress-bar {
+    display: flex;
+    flex-direction: column;
+  }
+  .main-progress-bar h1 {
+    font-size: 17px;
+  }
+
+  .indexedStep {
+    width: 35px;
+    height: 35px;
+  }
+
+  .indexedStep.current {
+    border: 1.8px solid rgb(47, 53, 131);
+  }
+  .indexedStep.accomplished {
+    border-color: rgb(166, 30, 49);
+    border-width: 1.8px;
+  }
+
+  .erc-info {
+    margin-top: 5%;
+  }
+  .erc-info img {
+    height: 20px;
+    margin-right: 10%;
+  }
+
+  .next-step-header {
+    min-height: 5rem;
+    flex-direction: column;
+    margin: 0;
+    padding: 5%;
+  }
+
+  .dynamic-step {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 20px;
+    font-size: 12px;
+    margin-top: 3%;
+  }
+  .initial-survey-container {
+    width: 90%;
+  }
+}

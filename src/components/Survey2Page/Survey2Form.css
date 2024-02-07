@@ -1,0 +1,111 @@
+.form {
+  display: flex;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-left-col,
+.form-right-col {
+  width: 48%;
+  padding: 16px;
+}
+
+.business-survey-form {
+  margin: 16px;
+}
+
+.test {
+  border: 2px solid #ccc;
+  padding: 16px;
+}
+
+.MuiFormControlLabel-root {
+  margin-right: 0 !important;
+}
+
+.empty-column {
+  background: rgb(223, 220, 220) !important;
+}
+
+.yes-no-header {
+  background: rgb(223, 220, 220) !important;
+}
+
+.MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-9.css-1qpzhgb-MuiGrid-root {
+  border-left: 1.5px solid rgb(47, 53, 131);
+  border-right: 1.5px solid rgb(47, 53, 131);
+  color: rgb(47, 53, 131);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.MuiTypography-root.MuiTypography-body1 {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.business-survey-form-first-col {
+  background: rgb(223, 220, 220) !important;
+  border-left: none !important;
+  border-right: none !important;
+}
+
+.MuiTypography-root.MuiTypography-subtitle1 {
+  color: rgb(166, 30, 49) !important;
+  font-size: 12px !important;
+  font-weight: 600 !important;
+  margin-bottom: 2%;
+}
+
+.MuiPaper-root.MuiPaper-elevation1 {
+  box-shadow: none !important;
+}
+
+.MuiGrid-root.MuiGrid-container.MuiGrid-item.MuiGrid-spacing-xs-1.MuiGrid-grid-xs-12.css-bzgugk-MuiGrid-root {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.third-row {
+  border: 1.5px solid rgb(47, 53, 131) !important;
+}
+
+.third-row-right {
+  border-top: 1.5px solid rgb(47, 53, 131) !important;
+  border-left: 1.5px solid rgb(47, 53, 131) !important;
+  border-right: 1.5px solid rgb(47, 53, 131) !important;
+  display: flex;
+  justify-content: center;
+}
+
+.fourth-row {
+  background: rgb(223, 220, 220) !important;
+  height: 12px;
+}
+
+.fifth-left {
+  border: 1.5px solid rgb(47, 53, 131) !important;
+}
+.fifth-right {
+  border: 1.5px solid rgb(47, 53, 131) !important;
+  display: flex;
+  justify-content: center;
+}
+
+.text-header {
+  font-size: 10px;
+}
+
+.second-row-left {
+  border-top: 1.5px solid rgb(47, 53, 131);
+}
+
+.no-border {
+  border: none !important;
+}
+
+.paycheck-bottom {
+  border-bottom: 1.5px solid rgb(47, 53, 131);
+}

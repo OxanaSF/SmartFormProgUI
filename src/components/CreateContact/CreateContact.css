@@ -1,0 +1,22 @@
+.create-contact-container {
+  width: 35%;
+  margin: auto;
+}
+
+.create-contact-container h1 {
+  color: rgb(47, 53, 131) !important;
+  font-weight: 700;
+  font-size: 25px;
+  letter-spacing: 0.7px;
+  text-align: left;
+}
+
+.create-contact-body {
+  background: white;
+  margin-top: 2%;
+  border-radius: 5px;
+  color: rgb(47, 53, 131) !important;
+  font-size: 13px;
+  font-weight: bolder;
+  text-align: left;
+}

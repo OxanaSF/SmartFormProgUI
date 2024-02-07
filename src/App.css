@@ -1,0 +1,12 @@
+.App {
+  text-align: center;
+}
+
+.MuiButton-containedPrimary {
+  background-color: rgb(47, 53, 131) !important;
+  align-self: flex-end;
+  text-transform: capitalize !important;
+  font-weight: 600 !important;
+  padding: 1% 5% !important;
+  font-size: 15px !important;
+}

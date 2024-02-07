@@ -1,0 +1,50 @@
+  /* 4th sub form  Start*/
+  
+  .css-mhc70k-MuiGrid-root > .MuiGrid-item:first-child {
+    margin-top: 4%;
+    margin-bottom: 0.5%;
+  }
+  
+  .css-mhc70k-MuiGrid-root > .MuiGrid-item {
+    margin-left: 1.5%;
+    padding: 0 !important;
+  }
+  
+  .ownership-table {
+    background: white;
+  }
+  
+  .ownership-row {
+    border: 1.5px solid rgb(47, 53, 131) !important;
+  }
+  
+  .MuiInputBase-input.MuiOutlinedInput-input {
+    text-decoration: none;
+    border-bottom: none !important;
+  }
+  
+  .custom-button {
+    background: white;
+  }
+  
+  /* buttonStyles.css */
+  
+  .custom-button-container {
+    background: white;
+  
+    border-left: 1.5px solid rgb(47, 53, 131) !important;
+    border-right: 1.5px solid rgb(47, 53, 131) !important;
+    border-bottom: 1.5px solid rgb(47, 53, 131) !important;
+  }
+  
+  .custom-button {
+    cursor: pointer;
+  }
+  
+  .custom-button span {
+    font-size: 20px;
+    color: rgb(47, 53, 131);
+    border-radius: none !important;
+  }
+  /* 4th sub form  End */
+  

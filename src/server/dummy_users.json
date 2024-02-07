@@ -1,0 +1,200 @@
+{
+    "results": [
+        {
+            "id": "1",
+            "properties": {
+                "createdate": "2023-10-27T21:38:34Z",
+                "email": "user1@example.com",
+                "firstname": "FirstName1",
+                "lastname": "LastName1",
+                "company": "Company1",
+                "phone": "+15550001",
+                "owner": "Yes",
+                "w2_employees": "51-200",
+                "filed_erc": "No",
+                "language": "French",
+                "referral_code": "037E8291"
+            },
+            "createdAt": "2023-10-27T21:38:34Z",
+            "updatedAt": "2023-11-18T21:38:34Z",
+            "archived": true
+        },
+        {
+            "id": "2",
+            "properties": {
+                "createdate": "2023-03-11T15:54:56Z",
+                "email": "user2@example.com",
+                "firstname": "FirstName2",
+                "lastname": "LastName2",
+                "company": "Company2",
+                "phone": "+15550002",
+                "owner": "No",
+                "w2_employees": "1-10",
+                "filed_erc": "Yes",
+                "language": "Mandarin",
+                "referral_code": "D4E2655E"
+            },
+            "createdAt": "2023-03-11T15:54:56Z",
+            "updatedAt": "2023-04-07T15:54:56Z",
+            "archived": false
+        },
+        {
+            "id": "3",
+            "properties": {
+                "createdate": "2023-04-27T20:24:40Z",
+                "email": "user3@example.com",
+                "firstname": "FirstName3",
+                "lastname": "LastName3",
+                "company": "Company3",
+                "phone": "+15550003",
+                "owner": "Yes",
+                "w2_employees": "1-10",
+                "filed_erc": "Yes",
+                "language": "French",
+                "referral_code": "5865612B"
+            },
+            "createdAt": "2023-04-27T20:24:40Z",
+            "updatedAt": "2023-05-20T20:24:40Z",
+            "archived": true
+        },
+        {
+            "id": "4",
+            "properties": {
+                "createdate": "2022-10-31T00:30:08Z",
+                "email": "user4@example.com",
+                "firstname": "FirstName4",
+                "lastname": "LastName4",
+                "company": "Company4",
+                "phone": "+15550004",
+                "owner": "No",
+                "w2_employees": "501+",
+                "filed_erc": "Yes",
+                "language": "English",
+                "referral_code": "BC22CFB7"
+            },
+            "createdAt": "2022-10-31T00:30:08Z",
+            "updatedAt": "2022-11-15T00:30:08Z",
+            "archived": false
+        },
+        {
+            "id": "5",
+            "properties": {
+                "createdate": "2023-02-21T12:28:50Z",
+                "email": "user5@example.com",
+                "firstname": "FirstName5",
+                "lastname": "LastName5",
+                "company": "Company5",
+                "phone": "+15550005",
+                "owner": "Yes",
+                "w2_employees": "201-500",
+                "filed_erc": "No",
+                "language": "Spanish",
+                "referral_code": "F10199A1"
+            },
+            "createdAt": "2023-02-21T12:28:50Z",
+            "updatedAt": "2023-02-26T12:28:50Z",
+            "archived": true
+        },
+        {
+            "id": "6",
+            "properties": {
+                "createdate": "2022-06-24T21:15:06Z",
+                "email": "user6@example.com",
+                "firstname": "FirstName6",
+                "lastname": "LastName6",
+                "company": "Company6",
+                "phone": "+15550006",
+                "owner": "Yes",
+                "w2_employees": "1-10",
+                "filed_erc": "No",
+                "language": "English",
+                "referral_code": "E895048F"
+            },
+            "createdAt": "2022-06-24T21:15:06Z",
+            "updatedAt": "2022-07-15T21:15:06Z",
+            "archived": true
+        },
+        {
+            "id": "7",
+            "properties": {
+                "createdate": "2022-12-08T21:42:42Z",
+                "email": "user7@example.com",
+                "firstname": "FirstName7",
+                "lastname": "LastName7",
+                "company": "Company7",
+                "phone": "+15550007",
+                "owner": "No",
+                "w2_employees": "201-500",
+                "filed_erc": "Yes",
+                "language": "Mandarin",
+                "referral_code": "5EBED95F"
+            },
+            "createdAt": "2022-12-08T21:42:42Z",
+            "updatedAt": "2022-12-17T21:42:42Z",
+            "archived": true
+        },
+        {
+            "id": "8",
+            "properties": {
+                "createdate": "2022-10-25T02:14:19Z",
+                "email": "user8@example.com",
+                "firstname": "FirstName8",
+                "lastname": "LastName8",
+                "company": "Company8",
+                "phone": "+15550008",
+                "owner": "Yes",
+                "w2_employees": "201-500",
+                "filed_erc": "No",
+                "language": "French",
+                "referral_code": "1359BCF3"
+            },
+            "createdAt": "2022-10-25T02:14:19Z",
+            "updatedAt": "2022-11-15T02:14:19Z",
+            "archived": true
+        },
+        {
+            "id": "9",
+            "properties": {
+                "createdate": "2022-07-07T04:37:40Z",
+                "email": "user9@example.com",
+                "firstname": "FirstName9",
+                "lastname": "LastName9",
+                "company": "Company9",
+                "phone": "+15550009",
+                "owner": "No",
+                "w2_employees": "501+",
+                "filed_erc": "No",
+                "language": "English",
+                "referral_code": "4782C8D4"
+            },
+            "createdAt": "2022-07-07T04:37:40Z",
+            "updatedAt": "2022-07-23T04:37:40Z",
+            "archived": true
+        },
+        {
+            "id": "10",
+            "properties": {
+                "createdate": "2022-12-24T23:00:54Z",
+                "email": "user10@example.com",
+                "firstname": "FirstName10",
+                "lastname": "LastName10",
+                "company": "Company10",
+                "phone": "+15550010",
+                "owner": "Yes",
+                "w2_employees": "501+",
+                "filed_erc": "No",
+                "language": "French",
+                "referral_code": "4F614123"
+            },
+            "createdAt": "2022-12-24T23:00:54Z",
+            "updatedAt": "2022-12-30T23:00:54Z",
+            "archived": false
+        }
+    ],
+    "paging": {
+        "next": {
+            "after": "10",
+            "link": "https://api.hubapi.com/crm/v3/objects/contacts?after=10"
+        }
+    }
+}

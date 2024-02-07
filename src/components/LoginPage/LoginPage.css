@@ -1,0 +1,9 @@
+.login-form-container:first-child {
+  width: 600px;
+}
+
+@media (max-width: 800px) {
+  .login-form-container:first-child {
+    width: 300px;
+  }
+}

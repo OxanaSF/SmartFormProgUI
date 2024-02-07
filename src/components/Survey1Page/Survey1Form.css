@@ -1,0 +1,186 @@
+.initial-survey-form {
+  min-height: 70vh;
+  margin: 4%;
+  padding: 5% 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.personal-information h3,
+.erc-estimate h3 {
+  margin-bottom: 6%;
+}
+
+.radio-btn-yn-container {
+  display: flex;
+  gap: 15px;
+}
+
+.personal-information {
+  margin-right: 2%;
+}
+
+.erc-estimate {
+  margin-left: 2%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.radio-button-field-container {
+  display: flex;
+  align-items: center;
+}
+
+.css-1f2kvjf-MuiFormControlLabel-root {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+.field-container-year {
+  margin-right: 4%;
+}
+
+@media (max-width: 600px) {
+  .radio-button-field-container {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 90% !important;
+  }
+}
+
+.radio-button-field {
+  display: flex;
+}
+
+@media (max-width: 600px) {
+  .css-1f2kvjf-MuiFormControlLabel-root {
+    margin-left: 1% !important;
+  }
+}
+
+/* Customize check boxes */
+.Mui-checked .MuiSvgIcon-root.MuiIconButton-label {
+  color: rgb(47, 53, 131) !important;
+}
+
+/* End Customize check box */
+
+/* Customize radio buttons */
+.MuiRadio-root.MuiRadio-colorPrimary .MuiSvgIcon-root {
+  color: rgb(47, 53, 131) !important;
+}
+
+.MuiRadio-root.MuiRadio-colorPrimary
+  .MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium {
+  font-size: 24px !important;
+}
+
+.MuiRadio-root.MuiRadio-colorPrimary.Mui-checked
+  .Mui-checked
+  .MuiIconButton-label {
+  border-color: rgb(47, 53, 131) !important;
+}
+
+.MuiCheckbox-root {
+  color: rgb(47, 53, 131) !important;
+}
+
+.Mui-checked {
+  color: rgb(47, 53, 131) !important;
+}
+
+.text-field .MuiFormControl-root {
+  width: 100%;
+}
+
+.text-field label,
+.text-field-custom label {
+  white-space: normal;
+}
+
+.MuiOutlinedInput-root,
+.MuiInputBase-colorPrimary,
+.MuiInputBase-formControl,
+.css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root,
+.MuiFormLabel-root,
+.MuiInputLabel-root,
+.MuiInputLabel-animated,
+.MuiInputLabel-root,
+.MuiInputLabel-animated,
+.css-9npbnl-MuiFormLabel-root-MuiInputLabel-root {
+  border: none !important;
+  border-bottom: 1px solid rgb(47, 53, 131) !important;
+  border-radius: 0 !important;
+  color: rgb(47, 53, 131) !important;
+  font-size: 14px !important;
+  font-weight: 600 !important;
+  margin-bottom: 10px;
+}
+
+.MuiInputBase-input,
+.MuiOutlinedInput-input,
+.css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input {
+  color: rgb(39, 45, 130) !important;
+  padding: 0 !important;
+  font-size: 17px !important;
+  font-weight: 400 !important;
+}
+
+.MuiFormLabel-colorPrimary,
+.css-u4tvz2-MuiFormLabel-root {
+  text-decoration: none !important;
+  border-bottom: none !important;
+}
+
+@media (max-width: 600px) {
+  .MuiFormLabel-colorPrimary,
+  .css-u4tvz2-MuiFormLabel-root {
+    width: 90% !important;
+    font-size: 12px !important;
+  }
+}
+
+.MuiOutlinedInput-notchedOutline {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.text-field .mailing-address .MuiInputBase-root {
+  border: none;
+  border-bottom: 1px solid #000;
+  position: relative;
+}
+
+.custom-font-size {
+  font-size: 12px;
+}
+
+/* custom numeric input start  */
+
+.text-field-custom {
+  width: 100%;
+  border-bottom: 1px solid rgb(47, 53, 131);
+  margin-bottom: 2%;
+}
+
+.no-outline {
+  outline: none;
+  border: none;
+  box-shadow: none;
+  width: 100%;
+  padding-bottom: 2%;
+  color: rgb(47, 53, 131);
+  font-size: 20px;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type='number'] {
+  -moz-appearance: textfield;
+}

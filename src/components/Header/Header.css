@@ -1,0 +1,14 @@
+.logo {
+  background: white;
+}
+
+.logo img {
+  width: 12%;
+  margin-left: 10%;
+}
+
+@media (max-width: 800px) {
+  .logo img {
+    width: 25%;
+  }
+}
